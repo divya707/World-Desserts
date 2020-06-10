@@ -33,6 +33,9 @@
                                 <state key="normal" title="Start">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="8Mc-JK-JK2" kind="show" id="18p-1r-HlN"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.51764705879999995" green="0.79215686269999996" blue="0.90588235289999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -41,119 +44,162 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="137.68115942028987" y="116.51785714285714"/>
+            <point key="canvasLocation" x="2087" y="-597"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="9S4-Mx-hA9">
             <objects>
                 <viewController id="8Mc-JK-JK2" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="uCL-vg-AIV">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Africa" translatesAutoresizingMaskIntoConstraints="NO" id="BHo-ga-xLq">
-                                <rect key="frame" x="36" y="207" width="159" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Australlia" translatesAutoresizingMaskIntoConstraints="NO" id="aA4-xw-3s8">
-                                <rect key="frame" x="232" y="187" width="137" height="113"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="south america" translatesAutoresizingMaskIntoConstraints="NO" id="Kda-Jg-9Jn">
-                                <rect key="frame" x="-43" y="358" width="202" height="146"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="North America" translatesAutoresizingMaskIntoConstraints="NO" id="85V-PR-b0N">
-                                <rect key="frame" x="173" y="334" width="227" height="129"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Europe" translatesAutoresizingMaskIntoConstraints="NO" id="dPt-Lu-B5r">
-                                <rect key="frame" x="-73" y="543" width="319" height="205"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Middle East" translatesAutoresizingMaskIntoConstraints="NO" id="YZ6-Gl-XuS">
-                                <rect key="frame" x="124" y="471" width="166" height="118"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="South East Asia" translatesAutoresizingMaskIntoConstraints="NO" id="MBT-7u-FKw">
-                                <rect key="frame" x="232" y="622" width="168" height="116"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tqa-8Y-Adb">
-                                <rect key="frame" x="125" y="773" width="165" height="47"/>
+                                <rect key="frame" x="25" y="730" width="165" height="47"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.96862745100000003" green="1" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="32"/>
                                 <state key="normal" title="✴︎Random ✴︎">
-                                    <color key="titleColor" red="0.82352941180000006" green="0.3921568627" blue="0.71372549019999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" red="0.51764705879999995" green="0.79215686269999996" blue="0.90588235289999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="12"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pick A Region" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kv0-l4-zE7">
-                                <rect key="frame" x="68" y="111" width="278" height="68"/>
+                                <rect key="frame" x="68" y="54" width="278" height="68"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="49"/>
                                 <color key="textColor" red="0.96862745100000003" green="1" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MmZ-lm-saa">
+                                <rect key="frame" x="37" y="130" width="122" height="127"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="Africa"/>
+                                <connections>
+                                    <segue destination="W3t-cE-bmP" kind="show" id="AfB-PK-oUt"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XJd-Hd-fVq">
+                                <rect key="frame" x="259" y="138" width="135" height="110"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="Australlia"/>
+                                <connections>
+                                    <segue destination="H6b-8I-8lJ" kind="show" id="yrc-gU-fb4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QZy-WN-ijE">
+                                <rect key="frame" x="224" y="265" width="165" height="164"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="North America"/>
+                                <connections>
+                                    <segue destination="M5P-uD-HbZ" kind="show" id="BFt-KJ-5mk"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BP4-qS-hFp">
+                                <rect key="frame" x="0.0" y="265" width="137" height="190"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="south america"/>
+                                <connections>
+                                    <segue destination="sls-wD-Eje" kind="show" id="C60-gj-Dxj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WH0-A3-Buq">
+                                <rect key="frame" x="137" y="377" width="140" height="133"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="Middle East"/>
+                                <connections>
+                                    <segue destination="Tsi-pd-xPf" kind="show" id="4ta-vK-ZD6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZQ4-mb-AmF">
+                                <rect key="frame" x="-21" y="487" width="211" height="186"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="Europe">
+                                    <color key="titleColor" red="0.51764705879999995" green="0.79215686269999996" blue="0.90588235289999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pej-Yk-Ry5">
+                                <rect key="frame" x="198" y="545" width="216" height="164"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="South East Asia"/>
+                                <connections>
+                                    <segue destination="9n3-Ao-mvj" kind="show" id="jEc-tH-uUS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F8P-VW-dpJ">
+                                <rect key="frame" x="232" y="730" width="149" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.96862745100000003" green="1" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="32"/>
+                                <state key="normal" title="✴︎Search ✴︎">
+                                    <color key="titleColor" red="0.51764705879999995" green="0.79215686269999996" blue="0.90588235289999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="12"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.51764705879999995" green="0.79215686269999996" blue="0.90588235289999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="5lI-QH-t6b"/>
                     </view>
+                    <navigationItem key="navigationItem" id="LCq-4Q-L5h"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="O0O-tb-Llh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="802.89855072463774" y="110.49107142857143"/>
+            <point key="canvasLocation" x="3113" y="-596"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="o3B-E0-Kdt">
             <objects>
                 <viewController id="W3t-cE-bmP" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Lef-gU-bwz">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Africa" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bP3-Da-JJY">
-                                <rect key="frame" x="140" y="68" width="134" height="56"/>
+                                <rect key="frame" x="140" y="32" width="134" height="56"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="51"/>
                                 <color key="textColor" red="0.96862745100000003" green="1" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="malva-pudding-c28a41e6-d60c-4d16-9a39-49a7dc0470a-resize-750" translatesAutoresizingMaskIntoConstraints="NO" id="Udw-GP-vGP">
-                                <rect key="frame" x="113" y="123" width="189" height="145"/>
+                                <rect key="frame" x="113" y="96" width="189" height="145"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Marshmallow Malva Pudding" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ShT-7i-EUn">
-                                <rect key="frame" x="49" y="276" width="317" height="47"/>
+                                <rect key="frame" x="49" y="249" width="317" height="47"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="26"/>
                                 <color key="textColor" red="0.82352941180000006" green="0.3921568627" blue="0.71372549019999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="abJ-Sr-ny4">
-                                <rect key="frame" x="40" y="7" width="374" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0ln-Mf-weq">
-                                <rect key="frame" x="20" y="44" width="40" height="40"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
-                                <state key="normal" title="←">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="noj-jD-WIg">
-                                <rect key="frame" x="258" y="811" width="116" height="35"/>
+                                <rect key="frame" x="258" y="773" width="116" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
                                 <state key="normal" title="Directions →">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="wut-tw-ZrH" kind="show" id="LgQ-Mc-beO"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="23" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="szD-3Q-Odl">
-                                <rect key="frame" x="42" y="331" width="332" height="461"/>
+                                <rect key="frame" x="42" y="293" width="332" height="461"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">●  1 1/2 cups flour
+                                <string key="text">●  1 1/2 cups flour
 ●  1 tsp baking soda
 ●  1 pinch salt
 ●  2 eggs (room temp)
@@ -164,15 +210,27 @@
 ●  1/2 cup milk
 ●  heavy cream (1 duo double)
 ●  6 tbs butter
-●1/2 cup sugar                                       </mutableString>
+●1/2 cup sugar                                       </string>
                                 <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="24"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0ln-Mf-weq">
+                                <rect key="frame" x="20" y="20" width="40" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <state key="normal" title="←">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="8Mc-JK-JK2" kind="show" id="vlT-L9-Uot"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.95089906449999995" green="0.86259883640000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="MR5-ar-UQE"/>
                     </view>
+                    <navigationItem key="navigationItem" id="2cX-1B-g4H"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="u73-6I-zc5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -183,31 +241,36 @@
             <objects>
                 <viewController id="sls-wD-Eje" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="MSo-mc-LwE">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="South America" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fdA-y9-Cr7">
-                                <rect key="frame" x="52" y="64" width="310" height="56"/>
+                                <rect key="frame" x="71" y="44" width="310" height="56"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="51"/>
                                 <color key="textColor" red="0.96862745100000003" green="1" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="south america desser" translatesAutoresizingMaskIntoConstraints="NO" id="J4a-op-6cV">
-                                <rect key="frame" x="87" y="128" width="221" height="144"/>
+                                <rect key="frame" x="97" y="108" width="221" height="144"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Traditional Alafojes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V3G-Ut-eQk">
-                                <rect key="frame" x="91" y="280" width="212" height="42"/>
+                                <rect key="frame" x="101" y="260" width="212" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="26"/>
                                 <color key="textColor" red="0.82352941180000006" green="0.3921568627" blue="0.71372549019999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="29" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dxb-fj-czX">
-                                <rect key="frame" x="34" y="317" width="347" height="492"/>
+                                <rect key="frame" x="53" y="275" width="347" height="492"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">●  1 3/4 cups cornstarch
+                                <string key="text">●  1 3/4 cups cornstarch
 ●  1 cup flour
 ●  1/2 teaspoon baking powder
 ●  1 teaspoon salt
@@ -217,80 +280,406 @@
 ●  1 teaspoon vanilla
 ●  1 cup dulce de leche
 ●  1/2 cup toasted coconut (finely chopped)
-</mutableString>
+</string>
                                 <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="23"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WWB-Ts-leN">
-                                <rect key="frame" x="20" y="44" width="40" height="40"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
-                                <state key="normal" title="←">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rjS-IT-CBL">
-                                <rect key="frame" x="265" y="808" width="116" height="35"/>
+                                <rect key="frame" x="278" y="773" width="116" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
                                 <state key="normal" title="Directions →">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="9AP-2f-1dt" kind="show" id="GUm-Pk-N6b"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WWB-Ts-leN">
+                                <rect key="frame" x="20" y="20" width="40" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <state key="normal" title="←">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="8Mc-JK-JK2" kind="show" id="9PR-CG-Jwu"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.95089906449999995" green="0.86259883640000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="IBc-MC-Mjk"/>
                     </view>
+                    <navigationItem key="navigationItem" id="9EW-Gg-oe8"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kBl-X0-k3P" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2086.9565217391305" y="109.82142857142857"/>
         </scene>
         <!--View Controller-->
-        <scene sceneID="4XI-pV-tLo">
+        <scene sceneID="bSw-A6-zpR">
             <objects>
-                <viewController id="wut-tw-ZrH" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="NY8-uW-718">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                <viewController id="H6b-8I-8lJ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="PBL-8U-8PV">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Directions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="frD-Lo-0sZ">
-                                <rect key="frame" x="101" y="78" width="212" height="56"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Australia" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AIw-P1-rVI">
+                                <rect key="frame" x="99" y="40" width="201" height="56"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="51"/>
                                 <color key="textColor" red="0.96862745100000003" green="1" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="33" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IF4-TS-l4O">
-                                <rect key="frame" x="31" y="142" width="352" height="697"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="australlia dessert" translatesAutoresizingMaskIntoConstraints="NO" id="5pj-M0-u3d">
+                                <rect key="frame" x="91" y="104" width="217" height="144"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">Preheat the oven to 350 F.
-Sift together the flour, baking soda, salt. Set aside.
-
-Beat the sugar and eggs until fluffy and light roughly 5 minutes. Beat in the Apricot Jam. 
-When well incorporated stop the mixer.
-
-While beating the sugar and eggs, melt the butter with the vinegar and milk in low heat.
-Fold the flour and milk mixture alternatively into the egg mixture. Once everything is combined, pour the batter into a greased oven-proof dish.
-Bake the pudding for about 30-35 minutes or until a tester comes out clean.
-
-During the last 10 minutes of baking, make the sauce. Place all the ingredients for the sauce into a sauce pan and stir over moderate heat until the butter has melted and the sugar has dissolved. Do not allow the mixture to boil. Remove the pudding from the oven, pierce it in a number of places with a skewer and pour the hot sauce over it immediately. Completely cover the cake with all the sauce.
-Allow a few minutes for the cake to absorb all the sauce.</mutableString>
-                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="17"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="New Zealand Pavola Dessert" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ia7-vG-hYa">
+                                <rect key="frame" x="48" y="267" width="319" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="26"/>
+                                <color key="textColor" red="0.82352941180000006" green="0.3921568627" blue="0.71372549019999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="29" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aqM-eM-Cm7">
+                                <rect key="frame" x="41" y="292" width="332" height="492"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">●  4 egg whites
+●  1/8 teaspoon cream of tartar
+●  1 cup superfine sugar (see note)
+●  1 tablespoon cornstarch
+●  1 teaspoon vanilla extract
+●  1 cup sliced fruit (kiwifruit, berries, peaches, etc.)
+●  1 1/2 cups lightly sweetened whipped cream
+●  1/4 cup miniature chocolate chips, crushed or small candies, or additional fruit slices optional
+</string>
+                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="23"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="us6-4A-Mmi">
-                                <rect key="frame" x="20" y="44" width="40" height="40"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uSd-lt-DEV">
+                                <rect key="frame" x="278" y="763" width="116" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
+                                <state key="normal" title="Directions →">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="xVp-ye-7pt" kind="show" id="ctc-ti-QsL"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RWx-hF-dME">
+                                <rect key="frame" x="20" y="20" width="40" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                 <state key="normal" title="←">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="8Mc-JK-JK2" kind="show" id="sbk-J5-ygt"/>
+                                </connections>
                             </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95089906449999995" green="0.86259883640000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="VL2-KW-CWB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="aFN-TC-y2X"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rZx-H6-Sgr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2749.275362318841" y="106.47321428571428"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="3Rh-aP-RbX">
+            <objects>
+                <viewController id="Tsi-pd-xPf" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Xqw-Mq-VXQ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Middle East" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PMG-LN-77s">
+                                <rect key="frame" x="84" y="40" width="246" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="51"/>
+                                <color key="textColor" red="0.96862745100000003" green="1" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="middle east dessert" translatesAutoresizingMaskIntoConstraints="NO" id="wD5-ML-blk">
+                                <rect key="frame" x="105" y="104" width="205" height="139"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Egyption Bread Pudding" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LoU-3D-oSx">
+                                <rect key="frame" x="74" y="251" width="266" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="26"/>
+                                <color key="textColor" red="0.82352941180000006" green="0.3921568627" blue="0.71372549019999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="29" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ngl-ZB-g1q">
+                                <rect key="frame" x="41" y="277" width="332" height="496"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">●  1 package of frozen puff pastry (approx. 17 ounces)
+●  1 (15 ounce) can of sweetened condensed milk
+●  3 cups of water
+●  1/2 cup of cream
+●  3/4 cup of pistachios (shelled and chopped)
+●  1/2 cup of pine nuts
+●  1/2 cup of almonds
+●  1/2 to 3/4 cups of coconut flakes (depending on your taste)
+●  1/2 teaspoon of vanilla extract</mutableString>
+                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="23"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qfi-XZ-HuG">
+                                <rect key="frame" x="278" y="773" width="116" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
+                                <state key="normal" title="Directions →">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="MLf-ob-DOZ" kind="show" id="zQc-fC-Arl"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="niz-19-4RV">
+                                <rect key="frame" x="20" y="20" width="40" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <state key="normal" title="←">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="8Mc-JK-JK2" kind="show" id="By5-Sh-EGg"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95089906449999995" green="0.86259883640000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="tMf-gO-n9V"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="fXK-r3-5WP"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="D8e-zR-RXe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3389.8550724637685" y="105.80357142857143"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="vVH-oe-eMD">
+            <objects>
+                <viewController id="M5P-uD-HbZ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="aek-Hh-tDo">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="North Amercia" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LX8-6B-rSJ">
+                                <rect key="frame" x="54" y="40" width="307" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="51"/>
+                                <color key="textColor" red="0.96862745100000003" green="1" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="north america dessert" translatesAutoresizingMaskIntoConstraints="NO" id="aY0-kc-5OR">
+                                <rect key="frame" x="93" y="104" width="228" height="144"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Angel Food Cake" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KQP-GD-dHf">
+                                <rect key="frame" x="115" y="256" width="185" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="26"/>
+                                <color key="textColor" red="0.82352941180000006" green="0.3921568627" blue="0.71372549019999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="29" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="70d-HX-bHp">
+                                <rect key="frame" x="41" y="292" width="332" height="407"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">●  1 cup cake flour
+●  1 1/2 cups sugar
+●  1 1/2 cups egg whites (about 10 eggs)
+●  1/4 teaspoon salt
+●  1 1/2 teaspoons cream of tartar
+●  1 1/2 teaspoons vanilla extract
+●  1/2 teaspoon almond extract
+Powdered sugar, for dusting
+Fresh berries, for serving
+</mutableString>
+                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="23"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QCS-lC-FZk">
+                                <rect key="frame" x="278" y="773" width="116" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
+                                <state key="normal" title="Directions →">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="lRL-8X-OLR" kind="show" id="i7Z-Aq-zuf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FUg-2H-8OH">
+                                <rect key="frame" x="20" y="20" width="40" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <state key="normal" title="←">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="8Mc-JK-JK2" kind="show" id="grX-EY-8co"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95089906449999995" green="0.86259883640000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="U8g-et-NTA"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="v4F-09-REU"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Nyw-de-64H" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4024.6376811594205" y="105.80357142857143"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Rph-jD-xHv">
+            <objects>
+                <viewController id="9n3-Ao-mvj" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8TU-rD-tET">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="South East Asia" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JTJ-j0-eNG">
+                                <rect key="frame" x="49" y="49" width="332" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="51"/>
+                                <color key="textColor" red="0.96862745100000003" green="1" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="South East Asia dessert" translatesAutoresizingMaskIntoConstraints="NO" id="Ky7-iE-NRN">
+                                <rect key="frame" x="103" y="113" width="225" height="149"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Chinese Almond Cookies" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="syd-PJ-DGC">
+                                <rect key="frame" x="72" y="270" width="271" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="26"/>
+                                <color key="textColor" red="0.82352941180000006" green="0.3921568627" blue="0.71372549019999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="29" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YIg-N0-zZf">
+                                <rect key="frame" x="49" y="308" width="332" height="407"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">●  2 cups flour
+●  1/2 teaspoon baking powder
+●  1/2 teaspoon baking soda
+●  1/8 teaspoon salt
+●  1/2 cup butter
+●  1/2 cup shortening
+●  3/4 cup white sugar
+●  1 egg
+●  2 1/2 teaspoons almond extract
+●  30 whole almonds (blanched)
+●  1 egg (lightly beaten)</mutableString>
+                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="23"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NhK-xL-ZUD">
+                                <rect key="frame" x="20" y="20" width="40" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <state key="normal" title="←">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="8Mc-JK-JK2" kind="show" id="Hvl-1q-nXd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ugX-bL-50O">
+                                <rect key="frame" x="278" y="773" width="116" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
+                                <state key="normal" title="Directions →">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="DLR-YH-PA7" kind="show" id="EKw-Bu-jWu"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95089906449999995" green="0.86259883640000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="IfH-xd-EKR"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Bbm-rY-I29"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Eqm-JU-Zpv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4669.5652173913049" y="105.80357142857143"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="4XI-pV-tLo">
+            <objects>
+                <viewController id="wut-tw-ZrH" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="NY8-uW-718">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Directions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="frD-Lo-0sZ">
+                                <rect key="frame" x="101" y="49" width="212" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="51"/>
+                                <color key="textColor" red="0.96862745100000003" green="1" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="us6-4A-Mmi">
+                                <rect key="frame" x="20" y="20" width="40" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <state key="normal" title="←">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="W3t-cE-bmP" kind="show" id="DPW-sV-4TN"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="33" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IF4-TS-l4O">
+                                <rect key="frame" x="31" y="113" width="352" height="607"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">1.  Preheat the oven to 350 F.
+Sift together the flour, baking soda, salt. Set aside.
+2.  Beat the sugar and eggs until fluffy and light roughly 5 minutes. Beat in the Apricot Jam. 
+When well incorporated stop the mixer.
+3.  While beating the sugar and eggs, melt the butter with the vinegar and milk in low heat.
+Fold the flour and milk mixture alternatively into the egg mixture. Once everything is combined, pour the batter into a greased oven-proof dish.
+Bake the pudding for about 30-35 minutes or until a tester comes out clean.
+4.  During the last 10 minutes of baking, make the sauce. Place all the ingredients for the sauce into a sauce pan and stir over moderate heat until the butter has melted and the sugar has dissolved. Do not allow the mixture to boil. Remove the pudding from the oven, pierce it in a number of places with a skewer and pour the hot sauce over it immediately. Completely cover the cake with all the sauce.
+5.  Allow a few minutes for the cake to absorb all the sauce.</string>
+                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fon-I7-Fru">
-                                <rect key="frame" x="254" y="823" width="144" height="35"/>
+                                <rect key="frame" x="250" y="773" width="144" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
                                 <state key="normal" title="Back To Start →">
@@ -301,6 +690,7 @@ Allow a few minutes for the cake to absorb all the sauce.</mutableString>
                         <color key="backgroundColor" red="0.95089906449999995" green="0.86259883640000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="WyU-ig-iug"/>
                     </view>
+                    <navigationItem key="navigationItem" id="hXt-wL-0FG"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pnI-bb-YOg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -311,20 +701,31 @@ Allow a few minutes for the cake to absorb all the sauce.</mutableString>
             <objects>
                 <viewController id="9AP-2f-1dt" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="eWM-Yi-Luh">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Directions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="se9-8I-IDg">
-                                <rect key="frame" x="101" y="77" width="212" height="56"/>
+                                <rect key="frame" x="101" y="41" width="212" height="56"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="51"/>
                                 <color key="textColor" red="0.96862745100000003" green="1" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="33" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="58T-I3-fqI">
-                                <rect key="frame" x="33" y="141" width="361" height="697"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6KA-f8-8WS">
+                                <rect key="frame" x="33" y="20" width="40" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">1.  Preheat the oven to 350 F.
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <state key="normal" title="←">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="sls-wD-Eje" kind="show" id="wYx-lW-5o9"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="33" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="58T-I3-fqI">
+                                <rect key="frame" x="33" y="105" width="361" height="656"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">1.  Preheat the oven to 350 F.
 2.  Place the cornstarch, flour, baking powder, and salt in a bowl and mix briefly.
 3.  Cut the butter into small pieces and add to the flour mixture, blending with your fingers until the mixture is smooth.
 4.  Add the powdered sugar, vanilla, and Pisco, and mix with your hands until the dough is homogeneous and smooth (add another tablespoon or two of Pisco if the dough is too crumbly to form a ball). Let the dough rest in the refrigerator for 30 minutes.
@@ -334,13 +735,13 @@ Allow a few minutes for the cake to absorb all the sauce.</mutableString>
 8.  To fill the cookies, spread one cookie with dulce de leche and top with a second cookie. Roll the edges in the coconut.
 9.  Store in an airtight container.
 
-</mutableString>
+</string>
                                 <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FbR-oV-k5e">
-                                <rect key="frame" x="250" y="818" width="144" height="35"/>
+                                <rect key="frame" x="250" y="773" width="144" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
                                 <state key="normal" title="Back To Start →">
@@ -351,12 +752,267 @@ Allow a few minutes for the cake to absorb all the sauce.</mutableString>
                         <color key="backgroundColor" red="0.95089906449999995" green="0.86259883640000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="d1n-zV-cn1"/>
                     </view>
+                    <navigationItem key="navigationItem" id="qDP-MH-Frm"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OoC-lu-jdm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2086.9565217391305" y="764.73214285714278"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="GCT-uf-MfV">
+            <objects>
+                <viewController id="xVp-ye-7pt" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="w7q-tB-a9s">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Directions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E5G-Se-VZN">
+                                <rect key="frame" x="101" y="36" width="212" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="51"/>
+                                <color key="textColor" red="0.96862745100000003" green="1" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mP3-NS-iWh">
+                                <rect key="frame" x="20" y="20" width="40" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <state key="normal" title="←">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="H6b-8I-8lJ" kind="show" id="vdH-qA-nlg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cmz-N2-PDc">
+                                <rect key="frame" x="250" y="773" width="144" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
+                                <state key="normal" title="Back To Start →">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="33" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ucq-tr-k3T">
+                                <rect key="frame" x="20" y="100" width="374" height="545"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">1.  Preheat the oven to 400 F. Line a shallow jelly roll pan with parchment paper.
+2.  Sprinkle cream of tartar over egg whites and beat until stiff. Whisk together sugar and cornstarch. Add the mixture to the egg whites a tablespoon at a time while beating on medium speed until all is combined. The meringue should be shiny, white, and stiff. Fold in vanilla extract.
+3.  Reduce oven heat to 200 F. Mound the meringue on the pan in a round shape about 6 inches in diameter. Bake for 1 hour. Turn off the oven, leaving meringue in the oven until it is cold, or overnight.
+4.  Arrange fruit over the base of the pavlova meringue, top with whipped cream and sprinkle with chips, crushed or small candies and/or additional fruit.
+5.  Use a serrated knife to gently saw slices. Store leftovers in a covered container.
+
+</string>
+                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95089906449999995" green="0.86259883640000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="F7R-7e-vGs"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="P7g-I6-Cjs"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JVq-yK-x71" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2747.826086956522" y="764.73214285714278"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="jn6-zP-0mc">
+            <objects>
+                <viewController id="MLf-ob-DOZ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="WRX-cN-qlY">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Directions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jw3-hF-bbX">
+                                <rect key="frame" x="101" y="40" width="212" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="51"/>
+                                <color key="textColor" red="0.96862745100000003" green="1" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="33" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q6F-f2-Id9">
+                                <rect key="frame" x="20" y="104" width="374" height="538"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">1.  Preheat the oven to 400 F.
+2.  Unroll the puff pastry sheets and place them on greased baking sheets or ones lined with parchment paper. Bake for 15 minutes. You want the puff pastry to be golden and puffed. Remove from the oven but do not turn the oven off.
+3.  Break the puff pastry into small pieces (about 1 to 2 inches). Place the broken pieces into a large bowl along with the nuts and coconut flakes. Be sure that they are mixed well and evenly distributed. Place the nuts and pastry mixture into a greased 9 x 12 baking dish.
+4.  In a saucepan, heat the sweetened condensed milk, vanilla, and water on medium heat. Allow to cook for about 3 to 5 minutes. Remove from the heat and allow to cool.
+5.  Pour the milk mixture over the puff pastry nut mixture. Pour the cream on top and bake, uncovered, for 15 minutes.
+6.  Serve warm or at room temperature.
+</mutableString>
+                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gZi-3f-XBq">
+                                <rect key="frame" x="20" y="20" width="40" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <state key="normal" title="←">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Tsi-pd-xPf" kind="show" id="noQ-OG-YbB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FPT-nM-ygG">
+                                <rect key="frame" x="250" y="773" width="144" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
+                                <state key="normal" title="Back To Start →">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95089906449999995" green="0.86259883640000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="xgR-o5-abv"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="ZWS-c1-EL1"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wOQ-YT-jlv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3389.8550724637685" y="764.73214285714278"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="IAd-RQ-Kz3">
+            <objects>
+                <viewController id="lRL-8X-OLR" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="nVW-EE-gUk">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Directions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yXv-zX-HOf">
+                                <rect key="frame" x="101" y="41" width="212" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="51"/>
+                                <color key="textColor" red="0.96862745100000003" green="1" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="33" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l9d-3S-45M">
+                                <rect key="frame" x="20" y="105" width="374" height="538"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">1.  Gather the ingredients.
+2.  Sift flour and 3/4 cup of the sugar together 3 times.
+3.  Beat egg whites with salt and cream of tartar in a large bowl on the highest speed of an electric mixer until it is light and fluffy. If you have no mixer, you can use a whisk but be 
+4.  prepared for a workout.
+5.  Sprinkle the remaining 3/4 cup of sugar over egg whites, 2 tablespoons at a time, beating thoroughly after each addition. 
+6.  Continue beating until stiff peaks form.
+7.  Fold in vanilla and almond extracts.
+8.  Sift dry ingredients, 2 tablespoons at a time, onto the beaten egg whites. Fold in gently but thoroughly with a wire whip or rubber spatula.
+9.  Pour batter into an ungreased tube pan (10 x 4 inches). Make sure that there is not a trace of any fat or grease in the pan, or cake won’t rise.
+10.  Draw a skewer gently through batter in a swirly pattern to remove large air bubbles.
+11. Bake in a preheated 350 F. oven for 40-50 minutes or until the crust is golden brown and cracks are very dry. 
+12.  If your tube pan has legs (like the one seen here), invert and allow to cool for at least one hour. If your tube pan does not have legs, invert the pan over a bottle to cool.
+13.  Once cooled, run a knife along the outside and carefully remove the cake from the pan. Place on a serving plate. 
+</mutableString>
+                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VBL-Ae-Cc8">
+                                <rect key="frame" x="20" y="20" width="40" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <state key="normal" title="←">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="M5P-uD-HbZ" kind="show" id="6MN-lO-MKB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yrb-MU-A8N">
+                                <rect key="frame" x="250" y="773" width="144" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
+                                <state key="normal" title="Back To Start →">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95089906449999995" green="0.86259883640000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="d2k-qi-tmU"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="2bx-g5-QQ2"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zZn-Rg-hDd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4025" y="765"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Gn0-HG-qEY">
+            <objects>
+                <viewController id="DLR-YH-PA7" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jMo-Fx-coL">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Directions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oh3-J0-wFT">
+                                <rect key="frame" x="101" y="45" width="212" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="51"/>
+                                <color key="textColor" red="0.96862745100000003" green="1" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="33" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TaM-ar-uuc">
+                                <rect key="frame" x="20" y="109" width="374" height="538"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">1.  Gather the ingredients and preheat the oven to 325 F/162.5 C.
+2.  In a large bowl, sift the flour, baking powder, baking soda, and salt.
+3.  In a medium bowl, use an electric mixer to beat together the butter and shortening, and sugar.
+4.  Add the egg and almond extract and beat until well blended.
+5.  Add to the flour mixture and mix well. Note: The dough will be crumbly at this point.
+6.  Use your fingers to form the mixture into a dough, and then form the dough into 2 rolls or logs that are 10 to 12 inches long.
+7.  Wrap and refrigerate for 2 hours (this will make it easier to shape the dough into circles).
+8.  Take a log and lightly score the dough at 3/4-inch intervals so that you have 15 pieces and cut the dough.
+9.  Roll each piece into a ball and place on a lightly-greased cookie tray, approximately 1 1/2-inches apart.
+10.  Add an almond in the center of each cookie and press down lightly. Repeat with the remaining dough.
+11. Brush each cookie lightly with a beaten egg.
+12.  Bake for 15 minutes to 18 minutes, until golden brown.
+</mutableString>
+                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X1g-hn-0Gd">
+                                <rect key="frame" x="20" y="20" width="40" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <state key="normal" title="←">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="9n3-Ao-mvj" kind="show" id="PKB-YI-oR9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oVE-AA-Uu3">
+                                <rect key="frame" x="250" y="773" width="144" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
+                                <state key="normal" title="Back To Start →">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95089906449999995" green="0.86259883640000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="V66-ME-1rF"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="IcI-fy-TFV"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Wff-O3-nTM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4670" y="765"/>
+        </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="jEc-tH-uUS"/>
+        <segue reference="BFt-KJ-5mk"/>
+        <segue reference="4ta-vK-ZD6"/>
+        <segue reference="yrc-gU-fb4"/>
+        <segue reference="C60-gj-Dxj"/>
+        <segue reference="AfB-PK-oUt"/>
+        <segue reference="18p-1r-HlN"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="Africa" width="414" height="440"/>
         <image name="Australlia" width="474" height="384"/>
@@ -364,8 +1020,12 @@ Allow a few minutes for the cake to absorb all the sauce.</mutableString>
         <image name="Middle East" width="246" height="230"/>
         <image name="North America" width="424" height="434"/>
         <image name="South East Asia" width="352" height="316"/>
+        <image name="South East Asia dessert" width="758" height="504"/>
+        <image name="australlia dessert" width="478" height="326"/>
         <image name="malva-pudding-c28a41e6-d60c-4d16-9a39-49a7dc0470a-resize-750" width="750" height="563"/>
         <image name="map of continentss" width="894" height="468"/>
+        <image name="middle east dessert" width="532" height="358"/>
+        <image name="north america dessert" width="610" height="406"/>
         <image name="south america" width="352" height="500"/>
         <image name="south america desser" width="618" height="416"/>
     </resources>
