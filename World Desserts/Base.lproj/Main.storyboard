@@ -54,20 +54,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tqa-8Y-Adb">
-                                <rect key="frame" x="25" y="730" width="165" height="47"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.96862745100000003" green="1" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="32"/>
-                                <state key="normal" title="✴︎Random ✴︎">
-                                    <color key="titleColor" red="0.51764705879999995" green="0.79215686269999996" blue="0.90588235289999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="12"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pick A Region" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kv0-l4-zE7">
                                 <rect key="frame" x="68" y="54" width="278" height="68"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -131,11 +117,25 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F8P-VW-dpJ">
-                                <rect key="frame" x="232" y="730" width="149" height="47"/>
+                                <rect key="frame" x="133" y="750" width="149" height="47"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.96862745100000003" green="1" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="32"/>
                                 <state key="normal" title="✴︎Search ✴︎">
+                                    <color key="titleColor" red="0.51764705879999995" green="0.79215686269999996" blue="0.90588235289999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="12"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tqa-8Y-Adb">
+                                <rect key="frame" x="125" y="695" width="165" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.96862745100000003" green="1" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="32"/>
+                                <state key="normal" title="✴︎Random ✴︎">
                                     <color key="titleColor" red="0.51764705879999995" green="0.79215686269999996" blue="0.90588235289999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
@@ -430,7 +430,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="29" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ngl-ZB-g1q">
                                 <rect key="frame" x="41" y="277" width="332" height="496"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">●  1 package of frozen puff pastry (approx. 17 ounces)
+                                <string key="text">●  1 package of frozen puff pastry (approx. 17 ounces)
 ●  1 (15 ounce) can of sweetened condensed milk
 ●  3 cups of water
 ●  1/2 cup of cream
@@ -438,7 +438,7 @@
 ●  1/2 cup of pine nuts
 ●  1/2 cup of almonds
 ●  1/2 to 3/4 cups of coconut flakes (depending on your taste)
-●  1/2 teaspoon of vanilla extract</mutableString>
+●  1/2 teaspoon of vanilla extract</string>
                                 <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="23"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -509,7 +509,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="29" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="70d-HX-bHp">
                                 <rect key="frame" x="41" y="292" width="332" height="407"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">●  1 cup cake flour
+                                <string key="text">●  1 cup cake flour
 ●  1 1/2 cups sugar
 ●  1 1/2 cups egg whites (about 10 eggs)
 ●  1/4 teaspoon salt
@@ -518,7 +518,7 @@
 ●  1/2 teaspoon almond extract
 Powdered sugar, for dusting
 Fresh berries, for serving
-</mutableString>
+</string>
                                 <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="23"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -589,7 +589,7 @@ Fresh berries, for serving
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="29" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YIg-N0-zZf">
                                 <rect key="frame" x="49" y="308" width="332" height="407"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">●  2 cups flour
+                                <string key="text">●  2 cups flour
 ●  1/2 teaspoon baking powder
 ●  1/2 teaspoon baking soda
 ●  1/8 teaspoon salt
@@ -599,7 +599,7 @@ Fresh berries, for serving
 ●  1 egg
 ●  2 1/2 teaspoons almond extract
 ●  30 whole almonds (blanched)
-●  1 egg (lightly beaten)</mutableString>
+●  1 egg (lightly beaten)</string>
                                 <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="23"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -834,13 +834,13 @@ Bake the pudding for about 30-35 minutes or until a tester comes out clean.
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="33" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q6F-f2-Id9">
                                 <rect key="frame" x="20" y="104" width="374" height="538"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">1.  Preheat the oven to 400 F.
+                                <string key="text">1.  Preheat the oven to 400 F.
 2.  Unroll the puff pastry sheets and place them on greased baking sheets or ones lined with parchment paper. Bake for 15 minutes. You want the puff pastry to be golden and puffed. Remove from the oven but do not turn the oven off.
 3.  Break the puff pastry into small pieces (about 1 to 2 inches). Place the broken pieces into a large bowl along with the nuts and coconut flakes. Be sure that they are mixed well and evenly distributed. Place the nuts and pastry mixture into a greased 9 x 12 baking dish.
 4.  In a saucepan, heat the sweetened condensed milk, vanilla, and water on medium heat. Allow to cook for about 3 to 5 minutes. Remove from the heat and allow to cool.
 5.  Pour the milk mixture over the puff pastry nut mixture. Pour the cream on top and bake, uncovered, for 15 minutes.
 6.  Serve warm or at room temperature.
-</mutableString>
+</string>
                                 <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -892,7 +892,7 @@ Bake the pudding for about 30-35 minutes or until a tester comes out clean.
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="33" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l9d-3S-45M">
                                 <rect key="frame" x="20" y="105" width="374" height="538"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">1.  Gather the ingredients.
+                                <string key="text">1.  Gather the ingredients.
 2.  Sift flour and 3/4 cup of the sugar together 3 times.
 3.  Beat egg whites with salt and cream of tartar in a large bowl on the highest speed of an electric mixer until it is light and fluffy. If you have no mixer, you can use a whisk but be 
 4.  prepared for a workout.
@@ -905,7 +905,7 @@ Bake the pudding for about 30-35 minutes or until a tester comes out clean.
 11. Bake in a preheated 350 F. oven for 40-50 minutes or until the crust is golden brown and cracks are very dry. 
 12.  If your tube pan has legs (like the one seen here), invert and allow to cool for at least one hour. If your tube pan does not have legs, invert the pan over a bottle to cool.
 13.  Once cooled, run a knife along the outside and carefully remove the cake from the pan. Place on a serving plate. 
-</mutableString>
+</string>
                                 <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -957,7 +957,7 @@ Bake the pudding for about 30-35 minutes or until a tester comes out clean.
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="33" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TaM-ar-uuc">
                                 <rect key="frame" x="20" y="109" width="374" height="538"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">1.  Gather the ingredients and preheat the oven to 325 F/162.5 C.
+                                <string key="text">1.  Gather the ingredients and preheat the oven to 325 F/162.5 C.
 2.  In a large bowl, sift the flour, baking powder, baking soda, and salt.
 3.  In a medium bowl, use an electric mixer to beat together the butter and shortening, and sugar.
 4.  Add the egg and almond extract and beat until well blended.
@@ -969,7 +969,7 @@ Bake the pudding for about 30-35 minutes or until a tester comes out clean.
 10.  Add an almond in the center of each cookie and press down lightly. Repeat with the remaining dough.
 11. Brush each cookie lightly with a beaten egg.
 12.  Bake for 15 minutes to 18 minutes, until golden brown.
-</mutableString>
+</string>
                                 <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
