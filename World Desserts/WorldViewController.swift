@@ -11,9 +11,7 @@ import UIKit
 class WorldViewController: UIViewController {
     
     
-    /*@IBAction func move(_ sender: UIButton) {
-        
-    } */
+   
     
     override func viewDidLoad() {
         super.viewDidLoad()

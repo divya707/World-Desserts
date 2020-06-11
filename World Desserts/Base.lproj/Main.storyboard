@@ -148,7 +148,7 @@
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="move:" destination="8Mc-JK-JK2" eventType="touchUpInside" id="fHt-hf-bNK"/>
-                                    <segue destination="t0c-e9-VUz" kind="popoverPresentation" popoverAnchorView="F8P-VW-dpJ" id="Dg6-Lv-Pgx">
+                                    <segue destination="t0c-e9-VUz" kind="popoverPresentation" popoverAnchorView="F8P-VW-dpJ" id="NxJ-M3-3aU">
                                         <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
                                     </segue>
                                 </connections>
@@ -1194,13 +1194,14 @@ Bake the pudding for about 30-35 minutes or until a tester comes out clean.
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="TfA-mE-I7G"/>
         <segue reference="jEc-tH-uUS"/>
         <segue reference="BFt-KJ-5mk"/>
         <segue reference="4ta-vK-ZD6"/>
         <segue reference="yrc-gU-fb4"/>
         <segue reference="C60-gj-Dxj"/>
         <segue reference="AfB-PK-oUt"/>
-        <segue reference="vlT-L9-Uot"/>
+        <segue reference="1qc-fk-vAU"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Africa" width="414" height="440"/>
