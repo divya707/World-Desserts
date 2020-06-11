@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		69ABA3712492756F004A8BA3 /* WorldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69ABA3702492756F004A8BA3 /* WorldViewController.swift */; };
+		69ABA373249275AD004A8BA3 /* SearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69ABA372249275AD004A8BA3 /* SearchTableViewController.swift */; };
+		69ABA37724927BD6004A8BA3 /* Desserts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69ABA37624927BD5004A8BA3 /* Desserts.swift */; };
 		BA5F2897248FFF0000E65BB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5F2896248FFF0000E65BB2 /* AppDelegate.swift */; };
 		BA5F2899248FFF0000E65BB2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5F2898248FFF0000E65BB2 /* SceneDelegate.swift */; };
 		BA5F289B248FFF0000E65BB2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5F289A248FFF0000E65BB2 /* ViewController.swift */; };
@@ -36,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		69ABA3702492756F004A8BA3 /* WorldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldViewController.swift; sourceTree = "<group>"; };
+		69ABA372249275AD004A8BA3 /* SearchTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewController.swift; sourceTree = "<group>"; };
+		69ABA37624927BD5004A8BA3 /* Desserts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Desserts.swift; sourceTree = "<group>"; };
 		BA5F2893248FFF0000E65BB2 /* World Desserts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "World Desserts.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA5F2896248FFF0000E65BB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA5F2898248FFF0000E65BB2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -109,6 +115,9 @@
 				BA5F28A4248FFF0400E65BB2 /* LaunchScreen.storyboard */,
 				BA5F28A7248FFF0400E65BB2 /* Info.plist */,
 				BA5F289F248FFF0100E65BB2 /* World_Desserts.xcdatamodeld */,
+				69ABA3702492756F004A8BA3 /* WorldViewController.swift */,
+				69ABA372249275AD004A8BA3 /* SearchTableViewController.swift */,
+				69ABA37624927BD5004A8BA3 /* Desserts.swift */,
 			);
 			path = "World Desserts";
 			sourceTree = "<group>";
@@ -263,9 +272,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA5F289B248FFF0000E65BB2 /* ViewController.swift in Sources */,
+				69ABA373249275AD004A8BA3 /* SearchTableViewController.swift in Sources */,
 				BA5F2897248FFF0000E65BB2 /* AppDelegate.swift in Sources */,
 				BA5F2899248FFF0000E65BB2 /* SceneDelegate.swift in Sources */,
+				69ABA3712492756F004A8BA3 /* WorldViewController.swift in Sources */,
 				BA5F28A1248FFF0100E65BB2 /* World_Desserts.xcdatamodeld in Sources */,
+				69ABA37724927BD6004A8BA3 /* Desserts.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
