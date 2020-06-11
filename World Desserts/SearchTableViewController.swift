@@ -51,8 +51,7 @@ class SearchTableViewController: UITableViewController, UISearchResultsUpdating 
             return array.count
         }
     }
-    
-    
+        
    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
        
     let cell = UITableViewCell()
